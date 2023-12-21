@@ -1,0 +1,27 @@
+rad_editor_plugins__cta:
+  js:
+    js/build/rad-editor-cta.js: { minified: true, preprocess: false }
+  css:
+    theme:
+      css/cta.css: {}
+  dependencies:
+    - core/ckeditor5
+
+admin_rad_editor_plugins__cta:
+  css:
+    theme:
+      css/cta.admin.css: {}
+
+rad_editor_plugins__blockquote:
+  js:
+    js/build/blockquote-with-citation.js: { minified: true, preprocess: false }
+  css:
+    theme:
+      css/blockquote.css: {}
+  dependencies:
+    - core/ckeditor5
+
+admin_rad_editor_plugins__blockquote:
+  css:
+    theme:
+      css/blockquote-with-citation.admin.css: {}

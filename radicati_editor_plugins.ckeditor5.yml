@@ -1,0 +1,25 @@
+radicati_editor_plugins__cta:
+  ckeditor5:
+    plugins:
+      - rad-editor-cta.RadCallToAction
+  drupal:
+    label: Radicati Editor Plugins
+    library: radicati_editor_plugins/rad_editor_plugins__cta
+    admin_library: radicati_editor_plugins/admin_rad_editor_plugins__cta
+    toolbar_items:
+      radCallToAction:
+        label: Call to Action
+    elements: false
+
+radicati_editor_plugins__blockquote:
+  ckeditor5:
+    plugins:
+      - blockquote-with-citation.BlockquoteWithCitation
+  drupal:
+    label: Radicati Editor Plugins
+    library: radicati_editor_plugins/rad_editor_plugins__blockquote
+    admin_library: radicati_editor_plugins/admin_rad_editor_plugins__blockquote
+    toolbar_items:
+      blockquoteWithCitation:
+        label: Blockquote with Citation
+    elements: false
