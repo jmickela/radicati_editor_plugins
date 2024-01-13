@@ -2,6 +2,9 @@ radicati_editor_plugins__cta:
   ckeditor5:
     plugins:
       - rad-editor-cta.RadCallToAction
+    config:
+      radcalltoaction:
+        contentToolbar: [ insertCTABackground, removeCTABackground ]
   drupal:
     label: Radicati Editor Plugins
     library: radicati_editor_plugins/rad_editor_plugins__cta

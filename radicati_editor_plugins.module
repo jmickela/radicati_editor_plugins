@@ -1,0 +1,10 @@
+<?php
+
+function radicati_editor_plugins_page_attachments_alter(array &$page) {
+  // Attaches css assets globally.
+  $page['#attached']['library'][] = 'radicati_editor_plugins/rad_editor_plugins__cta.frontend';
+
+  // Attach library from Radicati theme for the ckeditor. This should get extended by
+  // the child theme so that it can be customized.
+  $page['#attached']['library'][] = 'radicati_drupal_theme/ckeditor5';
+}

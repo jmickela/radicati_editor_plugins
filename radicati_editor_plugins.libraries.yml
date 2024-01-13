@@ -3,7 +3,7 @@ rad_editor_plugins__cta:
     js/build/rad-editor-cta.js: { minified: true, preprocess: false }
   css:
     theme:
-      css/cta.css: {}
+      css/cta.admin.css: {}
   dependencies:
     - core/ckeditor5
 
@@ -11,6 +11,11 @@ admin_rad_editor_plugins__cta:
   css:
     theme:
       css/cta.admin.css: {}
+
+rad_editor_plugins__cta.frontend:
+  css:
+    theme:
+      css/cta.css: {}
 
 rad_editor_plugins__blockquote:
   js:
@@ -25,3 +30,17 @@ admin_rad_editor_plugins__blockquote:
   css:
     theme:
       css/blockquote-with-citation.admin.css: {}
+
+rad_editor_plugins__media_collection:
+  js:
+    js/build/media-collection.js: { minified: true, preprocess: false }
+  css:
+    theme:
+      css/media-collection.css: {}
+  dependencies:
+    - core/ckeditor5
+
+admin_rad_editor_plugins__media_collection:
+  css:
+    theme:
+      css/media-collection.admin.css: {}

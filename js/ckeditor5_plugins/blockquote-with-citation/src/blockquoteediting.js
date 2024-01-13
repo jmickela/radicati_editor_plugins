@@ -1,6 +1,8 @@
 import { Plugin } from 'ckeditor5/src/core';
 import { toWidget, toWidgetEditable } from 'ckeditor5/src/widget';
 import { Widget } from 'ckeditor5/src/widget';
+//import { enablePlaceholder } from 'ckeditor5/src/engine';
+
 
 import InsertBlockquoteWithCitationCommand from './insertblockquotecommand.js';
 
@@ -95,6 +97,13 @@ export default class BlockquoteWithCitationEditing extends Plugin {
         const h2 = writer.createEditableElement('p', {
           class: 'blockquote-with-citation__quote',
         });
+
+        // enablePlaceholder({
+        //   view: this.editor.editing.view,
+        //   element: h2,
+        //   text: 'Quote',
+        // })
+
         return toWidgetEditable(h2, writer);
       }
     });

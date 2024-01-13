@@ -1,0 +1,11 @@
+.media-collection {
+  border: 1px solid blue;
+  padding: 10px;
+  background-color: #eee;
+}
+
+.media-collection__item {
+  border: 1px solid red;
+  padding: 10px;
+  background-color: #fff;
+}

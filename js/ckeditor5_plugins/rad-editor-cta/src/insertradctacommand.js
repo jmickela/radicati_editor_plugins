@@ -3,9 +3,6 @@ import { Command } from 'ckeditor5/src/core';
 export default class InsertRadCtaCommand extends Command {
 
   execute() {
-
-        console.log('InsertRadCtaCommand execute');
-
         this.editor.model.change( writer => {
 
             const cta = writer.createElement( 'radCallToAction' );
