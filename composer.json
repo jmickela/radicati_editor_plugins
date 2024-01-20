@@ -1,7 +1,7 @@
 {
   "name": "getrootid/radicati_editor_plugins",
   "description": "Plugins meant to extend CKEditor5 on a Drupal 10 site.",
-  "type": "drupal-theme",
+  "type": "drupal-module",
   "authors": [
     {
       "name": "Jason Neumark Mickela",
